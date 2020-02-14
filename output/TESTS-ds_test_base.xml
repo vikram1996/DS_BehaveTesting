@@ -1,0 +1,56 @@
+<testsuite errors="0" failures="0" hostname="vikrams-ubuntu-acer" name="ds_test_base.The functionality of DiseaseScope : Getting Disease Genes and Tissues" skipped="0" tests="5" time="0.034306" timestamp="2020-02-14T15:14:09.653313"><testcase classname="ds_test_base.The functionality of DiseaseScope : Getting Disease Genes and Tissues" name="Validity of a doid -- @1.1 Doids" status="passed" time="0.007419"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Validity of a doid -- @1.1 Doids
+    Given a doid 0040003 ... passed in 0.000s
+    When we look the doid up with diseaseScope ... passed in 0.007s
+    Then it yields Valid ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ds_test_base.The functionality of DiseaseScope : Getting Disease Genes and Tissues" name="Validity of a doid -- @1.2 Doids" status="passed" time="0.006735"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Validity of a doid -- @1.2 Doids
+    Given a doid 2841 ... passed in 0.000s
+    When we look the doid up with diseaseScope ... passed in 0.007s
+    Then it yields Valid ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ds_test_base.The functionality of DiseaseScope : Getting Disease Genes and Tissues" name="Validity of a doid -- @1.3 Doids" status="passed" time="0.006844"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Validity of a doid -- @1.3 Doids
+    Given a doid 0050654 ... passed in 0.000s
+    When we look the doid up with diseaseScope ... passed in 0.007s
+    Then it yields Valid ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ds_test_base.The functionality of DiseaseScope : Getting Disease Genes and Tissues" name="Validity of a doid -- @1.4 Doids" status="passed" time="0.006625"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Validity of a doid -- @1.4 Doids
+    Given a doid 00000 ... passed in 0.000s
+    When we look the doid up with diseaseScope ... passed in 0.006s
+    Then it yields Invalid ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ds_test_base.The functionality of DiseaseScope : Getting Disease Genes and Tissues" name="Validity of a doid -- @1.5 Doids" status="passed" time="0.006683"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Validity of a doid -- @1.5 Doids
+    Given a doid 10101 ... passed in 0.000s
+    When we look the doid up with diseaseScope ... passed in 0.007s
+    Then it yields Invalid ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

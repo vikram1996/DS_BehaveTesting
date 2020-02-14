@@ -1,0 +1,5 @@
+0001816:angiosarcoma
+0002116:pterygium
+0014667:disease of metabolism
+0040001:shrimp allergy
+0040002:aspirin allergy

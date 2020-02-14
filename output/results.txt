@@ -1,0 +1,27 @@
+Feature: The functionality of DiseaseScope : Getting Disease Genes and Tissues # features/base.features/ds_test_base.feature:1
+
+  Scenario Outline: Validity of a doid -- @1.1 Doids  # features/base.features/ds_test_base.feature:10
+    Given a doid 0040003                              # features/base.features/steps/steps_base.py:9
+    When we look the doid up with diseaseScope        # features/base.features/steps/steps_base.py:14
+    Then it yields Valid                              # features/base.features/steps/steps_base.py:18
+
+  Scenario Outline: Validity of a doid -- @1.2 Doids  # features/base.features/ds_test_base.feature:11
+    Given a doid 2841                                 # features/base.features/steps/steps_base.py:9
+    When we look the doid up with diseaseScope        # features/base.features/steps/steps_base.py:14
+    Then it yields Valid                              # features/base.features/steps/steps_base.py:18
+
+  Scenario Outline: Validity of a doid -- @1.3 Doids  # features/base.features/ds_test_base.feature:12
+    Given a doid 0050654                              # features/base.features/steps/steps_base.py:9
+    When we look the doid up with diseaseScope        # features/base.features/steps/steps_base.py:14
+    Then it yields Valid                              # features/base.features/steps/steps_base.py:18
+
+  Scenario Outline: Validity of a doid -- @1.4 Doids  # features/base.features/ds_test_base.feature:13
+    Given a doid 00000                                # features/base.features/steps/steps_base.py:9
+    When we look the doid up with diseaseScope        # features/base.features/steps/steps_base.py:14
+    Then it yields Invalid                            # features/base.features/steps/steps_base.py:18
+
+  Scenario Outline: Validity of a doid -- @1.5 Doids  # features/base.features/ds_test_base.feature:14
+    Given a doid 10101                                # features/base.features/steps/steps_base.py:9
+    When we look the doid up with diseaseScope        # features/base.features/steps/steps_base.py:14
+    Then it yields Invalid                            # features/base.features/steps/steps_base.py:18
+
